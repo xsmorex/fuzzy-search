@@ -1,6 +1,7 @@
 
 import * as express from 'express';
 import * as bodyParser from 'body-parser';
+import * as cors from 'cors'
 
 import routes from './routes/index';
 
@@ -10,6 +11,8 @@ const PORT = process.env.PORT
 
 const app = express();
 const router = express.Router()
+
+app.use(cors())
 app.use(bodyParser.urlencoded({ extended: false }));
 
 routes(router)
