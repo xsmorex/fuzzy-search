@@ -1,0 +1,14 @@
+{
+    "tracks": [
+        {
+            "id": 1,
+            "title": "A Song",
+            "artist": "Famous Singer"
+        },
+        {
+            "id": 2,
+            "title": "Another Song",
+            "artist": "Famous Band"
+        }
+    ]
+}
